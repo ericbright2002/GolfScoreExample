@@ -11,6 +11,10 @@
 		6255BE0228931C2A00340167 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255BE0128931C2A00340167 /* ContentView.swift */; };
 		6255BE0428931C2B00340167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6255BE0328931C2B00340167 /* Assets.xcassets */; };
 		6255BE0728931C2B00340167 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6255BE0628931C2B00340167 /* Preview Assets.xcassets */; };
+		6255BE0E28931CD100340167 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255BE0D28931CD100340167 /* WelcomeView.swift */; };
+		6255BE1028931CF600340167 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255BE0F28931CF600340167 /* FormView.swift */; };
+		6255BE1228931D2E00340167 /* HoleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255BE1128931D2E00340167 /* HoleData.swift */; };
+		6255BE1428931D4400340167 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6255BE1328931D4400340167 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6255BE0128931C2A00340167 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6255BE0328931C2B00340167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6255BE0628931C2B00340167 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6255BE0D28931CD100340167 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6255BE0F28931CF600340167 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		6255BE1128931D2E00340167 /* HoleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleData.swift; sourceTree = "<group>"; };
+		6255BE1328931D4400340167 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				6255BDFF28931C2A00340167 /* GolfScoreExampleApp.swift */,
 				6255BE0128931C2A00340167 /* ContentView.swift */,
+				6255BE0D28931CD100340167 /* WelcomeView.swift */,
+				6255BE0F28931CF600340167 /* FormView.swift */,
+				6255BE1128931D2E00340167 /* HoleData.swift */,
+				6255BE1328931D4400340167 /* ViewModel.swift */,
 				6255BE0328931C2B00340167 /* Assets.xcassets */,
 				6255BE0528931C2B00340167 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6255BE1028931CF600340167 /* FormView.swift in Sources */,
+				6255BE1228931D2E00340167 /* HoleData.swift in Sources */,
 				6255BE0228931C2A00340167 /* ContentView.swift in Sources */,
+				6255BE0E28931CD100340167 /* WelcomeView.swift in Sources */,
+				6255BE1428931D4400340167 /* ViewModel.swift in Sources */,
 				6255BE0028931C2A00340167 /* GolfScoreExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

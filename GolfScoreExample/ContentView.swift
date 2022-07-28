@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $viewModel.whichHole) {
+            ForEach(0..<(viewModel.allHoles.count + 1), id: \.self) { index in
+                if viewModel.whichHole == 0 {
+                    WelcomeView()
+                        .tag(index)
+                } else {
+                    FormView()
+                        .tag(index)
+                }
+            }
+        }
+        .tabViewStyle(.page)
+        .padding()
+        .environmentObject(viewModel)
     }
 }
 
